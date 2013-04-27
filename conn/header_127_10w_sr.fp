@@ -10,11 +10,11 @@ Element["" "" "" "header_127_10w" 0 0 0 0 0 100 ""]
 	Pin[1.27mm 3.81mm 1mm 0.5mm 1.3mm 0.65mm "8" "8" ""]
 	Pin[   0mm 5.08mm 1mm 0.5mm 1.3mm 0.65mm "9" "9" ""]
 	Pin[1.27mm 5.08mm 1mm 0.5mm 1.3mm 0.65mm "10" "10" ""]
-	ElementLine [ 1.97mm -0.7mm  1.97mm  5.77mm 0.2mm] # Right
-	ElementLine [-0.7mm -0.7mm -0.7mm  5.77mm 0.2mm] # Left
-	ElementLine [-0.7mm -0.7mm  1.97mm -0.7mm 0.2mm] # Top
-	ElementLine [-0.7mm  5.77mm  1.97mm  5.77mm 0.2mm] # Bottom
+	ElementLine [ 2.35mm -0.7mm   2.35mm  5.77mm 0.2mm] # Right
+	ElementLine [ -1.1mm -0.7mm   -1.1mm  5.77mm 0.2mm] # Left
+	ElementLine [ -1.1mm -0.7mm   2.35mm -0.7mm 0.2mm] # Top
+	ElementLine [ -1.1mm  5.77mm  2.35mm  5.77mm 0.2mm] # Bottom
 
-	ElementLine [-0.75mm -0.75mm -0.75mm  0.64mm 0.3mm]
-	ElementLine [-0.75mm -0.75mm  0.64mm -0.75mm 0.3mm]
+	ElementLine [-1.2mm -0.75mm -1.2mm  0.64mm 0.3mm]
+	ElementLine [-1.2mm -0.75mm  0.64mm -0.75mm 0.3mm]
 )
