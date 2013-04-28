@@ -19,8 +19,8 @@
 Element[ "" "Description_nichicon_NICHICON_WT_CAP_10_10" "" "`NICHICON_WT_CAP_10_10'" 0 0 0 0 0 100 ""]
 (
 # Pad [rX1 rY1 rX2 rY2 Thickness Clearance Mask "Name" "Number" SFlags]                                                                                              
-Pad[ 0 -20078 0 -11023 6330 1000 7330 "Plus"  "1" "square"]
-Pad[ 0  20078 0  11023 6330 1000 7330 "Minus" "2" "square"]
+Pad[ 0 -20078 0 -11023 6330 1000 7330 "1"  "1" "square"]
+Pad[ 0  20078 0  11023 6330 1000 7330 "2" "2" "square"]
 # Silk screen around package
 # ElementLine[ x1 y1 x2 y2 width]
 ElementLine[ 21969    21969     4465    21969    1000]
