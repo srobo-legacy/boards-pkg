@@ -1,34 +1,16 @@
-	# max pin width (perpendicular to axis of package) (1/100 mil)
-	# max pin length (parallel to axis of package) (1/100 mil)
-	# gap between the pads (1/100 mil)
-	# package width (1/100 mil)
-	# package height (1/100 mil)
-	# component veritcal height off board (1/100 mil)
-	# pad width and length
-	# y values for drawing the pad.  The Y center of the pad is 0.5*(PINL + PINS)
-	# we need a line segment of length PADL - PADW so we have end points:
-	# 0.5*(PINL + PINS) +/- 0.5*(PADL - PADW)
-	# width of soldermask relief (5 mil on each side)
-	# silkscreen width (1/100 mils)
-	# how much space to leave around the part before the
-	# silk screen (1/100 mils)
-	# lower left corner for silk screen (1/100 mil)
-	# upper right corner for silk screen (1/100 mil)
-	# how much to notch the corners by in silk to indicate polarity
 # Element [SFlags "Desc" "Name" "Value" MX MY TX TY TDir TScale TSFlags]
-Element[ "" "Description_nichicon_NICHICON_WT_CAP_10_10" "" "`NICHICON_WT_CAP_10_10'" 0 0 0 0 0 100 ""]
+Element["" "" "" "NICHICON_WT_CAP_10_10" 0 0 0 0 0 100 ""]
 (
 # Pad [rX1 rY1 rX2 rY2 Thickness Clearance Mask "Name" "Number" SFlags]                                                                                              
-Pad[ 0 -20078 0 -11023 6330 1000 7330 "1"  "1" "square"]
-Pad[ 0  20078 0  11023 6330 1000 7330 "2" "2" "square"]
+Pad[0mm -5.1mm 0mm -2.8mm 1.6mm 0.5mm 1.9mm "1" "1" "square"]
+Pad[0mm  5.1mm 0mm  2.8mm 1.6mm 0.5mm 1.9mm "2" "2" "square"]
+
 # Silk screen around package
 # ElementLine[ x1 y1 x2 y2 width]
-ElementLine[ 21969    21969     4465    21969    1000]
-ElementLine[ 21969    21969     21969    -18969 1000]
-ElementLine[ 21969    -18969  18969 -21969    1000]
-ElementLine[ 18969 -21969     4465    -21969    1000]
-ElementLine[ -21969    21969    -4465    21969    1000]
-ElementLine[ -21969    21969    -21969    -18969 1000]
-ElementLine[ -21969    -18969 -18969 -21969    1000]
-ElementLine[ -18969 -21969    -4465    -21969    1000]
+ElementLine[-5.45mm  6.2mm  5.45mm  6.2mm 0.2mm] # Bottom
+ElementLine[ 5.45mm  6.2mm  5.45mm -4.2mm 0.2mm] # Right
+ElementLine[ 5.45mm -4.2mm  3.45mm -6.2mm 0.2mm] # Top Right
+ElementLine[-3.45mm -6.2mm  3.45mm -6.2mm 0.2mm] # Top
+ElementLine[-5.45mm  6.2mm -5.45mm -4.2mm 0.2mm] # Left
+ElementLine[-5.45mm -4.2mm -3.45mm -6.2mm 0.2mm] # Top Left
 )
