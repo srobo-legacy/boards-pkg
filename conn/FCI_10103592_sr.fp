@@ -2,8 +2,8 @@ Element["" "" "" "FCI 10103592 micro USB" 0 0 0 0 0 100 ""]
 (
 	Pin[  -4.1mm -1.65mm 1.6mm 0.5mm 1.9mm 1.2mm "6" "6" ""] # Shell Bottom-Left
 	Pin[   4.1mm -1.65mm 1.6mm 0.5mm 1.9mm 1.2mm "6" "6" ""] # Shell Bottom-Right
-	Pin[-2.425mm -4.73mm 1.1mm 0.5mm 1.4mm 0.8mm "6" "6" ""] # Shell Top-Left
-	Pin[ 2.425mm -4.73mm 1.1mm 0.5mm 1.4mm 0.8mm "6" "6" ""] # Shell Top-Right
+	Pin[-2.425mm -4.73mm 1.2mm 0.5mm 1.4mm 0.8mm "6" "6" ""] # Shell Top-Left
+	Pin[ 2.425mm -4.73mm 1.2mm 0.5mm 1.4mm 0.8mm "6" "6" ""] # Shell Top-Right
 
 	Pad[-0.937mm -1.287mm -0.937mm -2.013mm 1.375mm 0.5mm 1.675mm "6" "6" "square"]
 	Pad[ 0.937mm -1.287mm  0.937mm -2.013mm 1.375mm 0.5mm 1.675mm "6" "6" "square"]
