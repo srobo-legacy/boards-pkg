@@ -1,0 +1,15 @@
+Element["" "" "" "CAY10J4" 0 0 0 0 0 100 ""]
+(
+	Pad[-0.45mm  -0.8mm -0.55mm  -0.8mm 0.4mm 0.5mm 0.7mm "1" "1" "square"]
+	Pad[ -0.4mm -0.25mm  -0.6mm -0.25mm 0.3mm 0.5mm 0.6mm "2" "2" "square"]
+	Pad[ -0.4mm  0.25mm  -0.6mm  0.25mm 0.3mm 0.5mm 0.6mm "3" "3" "square"]
+	Pad[-0.45mm   0.8mm -0.55mm   0.8mm 0.4mm 0.5mm 0.7mm "4" "4" "square"]
+	Pad[ 0.45mm  -0.8mm  0.55mm  -0.8mm 0.4mm 0.5mm 0.7mm "8" "8" "square"]
+	Pad[  0.4mm -0.25mm   0.6mm -0.25mm 0.3mm 0.5mm 0.6mm "7" "7" "square"]
+	Pad[  0.4mm  0.25mm   0.6mm  0.25mm 0.3mm 0.5mm 0.6mm "6" "6" "square"]
+	Pad[ 0.45mm   0.8mm  0.55mm   0.8mm 0.4mm 0.5mm 0.7mm "5" "5" "square"]
+	ElementLine[-1mm -1.25mm  1mm -1.25mm 0.15mm]
+	ElementLine[-1mm  1.25mm  1mm  1.25mm 0.15mm]
+	ElementLine[-1mm -1.25mm -1mm  1.25mm 0.15mm]
+	ElementLine[ 1mm -1.25mm  1mm  1.25mm 0.15mm]
+	)
