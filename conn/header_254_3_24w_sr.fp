@@ -39,6 +39,9 @@ Element["" "" "" "header_254_3_24w" 0 0 0 0 0 100 ""]
 
 	ElementLine [-4.06mm -1.27mm -4.06mm 19.05mm 0.25mm] # Far left
 
+	ElementLine [-6.96mm -1.27mm -6.96mm 1.27mm 0.25mm] # 3mm overhang
+	ElementLine [-6.96mm  16.51mm -6.96mm 19.05mm 0.25mm] # 3mm overhang
+
 	ElementLine [-9.6mm     0mm -4.25mm     0mm 0.64mm] # Pin
 	ElementLine [-9.6mm  2.54mm -4.25mm  2.54mm 0.64mm] # Pin
 	ElementLine [-9.6mm  5.08mm -4.25mm  5.08mm 0.64mm] # Pin
